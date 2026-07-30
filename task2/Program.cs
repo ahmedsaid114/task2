@@ -10,14 +10,17 @@
 
             do
             {
-                Console.WriteLine();
+                
                 Console.WriteLine("P - Print numbers");
                 Console.WriteLine("A - Add a number");
                 Console.WriteLine("M - Display mean of the numbers");
                 Console.WriteLine("S - Display the smallest number");
                 Console.WriteLine("L - Display the largest number");
                 Console.WriteLine("Q - Quit");
-                Console.Write("Enter your choice: ");
+
+
+                
+                Console.WriteLine("Enter your choice: ");
 
                 choice = Convert.ToChar(Console.ReadLine());
 
